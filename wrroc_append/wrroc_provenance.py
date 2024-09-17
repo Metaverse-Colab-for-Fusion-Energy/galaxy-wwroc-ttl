@@ -23,6 +23,11 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, user):
     '''
 
     # --------------------------------------------------------------
+    # Generate a new UUID for the crate
+
+    crate_uuid = uuid.uuid4()
+
+    # --------------------------------------------------------------
     # Unzip the RO-Crate
     with zipfile.ZipFile(rocrate_filepath, "r") as zip_ref:
         zip_ref.extractall(temp_unzip_dir)
@@ -41,7 +46,7 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, user):
         dataset_attrs = json.load(f)
 
     # Form the jq filters
-    nucleus_crate_url = "https://foo.bar/hello-world-path/"
+    nucleus_crate_url = f"https://crate_uuid"
     filter_dataset_attrs = f'.[] | {{"@id": .file_name, "@type": "File", dateCreated: .update_time, url: ("{nucleus_crate_url}" + .file_name), exampleOfWork: {{"@id": ("#" + .dataset_uuid)}}, name: .name}}'
     filter_dataset_attrs_example = '.[] | {"@id": ("#" + .dataset_uuid), "@type": "FormalParameter", "additionalType": "File", "description": "", name: .name}'
 
@@ -97,7 +102,7 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, user):
     g = rdflib.Graph()
     g.parse(f'{crate_path}/ro-crate-metadata-updated.json',
             format='json-ld',
-            publicID=f'{arcp.generate.arcp_uuid(uuid=uuid.uuid4())}#'
+            publicID=f'{arcp.generate.arcp_uuid(crate_uuid)}'
             )
 
     return g
