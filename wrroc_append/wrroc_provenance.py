@@ -46,7 +46,7 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, user):
         dataset_attrs = json.load(f)
 
     # Form the jq filters
-    nucleus_crate_url = f"https://{crate_uuid}"
+    nucleus_crate_url = f"https://{crate_uuid}/"
     filter_dataset_attrs = f'.[] | {{"@id": .file_name, "@type": "File", dateCreated: .update_time, url: ("{nucleus_crate_url}" + .file_name), exampleOfWork: {{"@id": ("#" + .dataset_uuid)}}, name: .name}}'
     filter_dataset_attrs_example = '.[] | {"@id": ("#" + .dataset_uuid), "@type": "FormalParameter", "additionalType": "File", "description": "", name: .name}'
 
