@@ -1,0 +1,612 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <https://bioschemas.org/ComputationalWorkflow#> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#0927e70e-0bd6-499c-8092-833ff88afdff> a ns1:OrganizeAction ;
+    ns1:endTime "2024-08-15T13:41:22.653382" ;
+    ns1:instrument <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#9ff80a61-ec70-40d5-a24a-bcd6ca59e9f0> ;
+    ns1:name "Run of Galaxy workflow engine" ;
+    ns1:startTime "2024-08-15T13:41:21.841688" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#datasets_attrs.txt.provenance> a ns1:CreativeWork ;
+    ns1:description "datasets provenance properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/ro-crate-metadata.json> a ns1:CreativeWork ;
+    dcterms:conformsTo <https://w3id.org/ro/crate/1.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:about <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#9dab0e6f-c775-4368-8a7c-480294af70ae> a ns1:OrganizeAction ;
+    ns1:endTime "2024-08-20T13:30:26.813344" ;
+    ns1:instrument <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#ee2378c3-194a-4b43-bea0-022da0a43256> ;
+    ns1:name "Run of Galaxy workflow engine" ;
+    ns1:startTime "2024-08-20T13:30:26.372911" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#datasets_attrs.txt.provenance> a ns1:CreativeWork ;
+    ns1:description "datasets provenance properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/ro-crate-metadata.json> a ns1:CreativeWork ;
+    dcterms:conformsTo <https://w3id.org/ro/crate/1.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:about <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#c566e10b-bbe4-4433-94a2-60437bee4141> a ns1:OrganizeAction ;
+    ns1:endTime "2024-05-24T16:36:32.779123" ;
+    ns1:instrument <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#aabde324-f640-4bcf-8023-82a431c079a1> ;
+    ns1:name "Run of Galaxy workflow engine" ;
+    ns1:startTime "2024-05-24T16:36:31.537551" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#datasets_attrs.txt.provenance> a ns1:CreativeWork ;
+    ns1:description "datasets provenance properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/ro-crate-metadata.json> a ns1:CreativeWork ;
+    dcterms:conformsTo <https://w3id.org/ro/crate/1.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:about <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/> a ns1:Dataset ;
+    dcterms:conformsTo <https://w3id.org/ro/wfrun/process/0.1>,
+        <https://w3id.org/ro/wfrun/workflow/0.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:datePublished "2024-09-17T13:26:57+00:00" ;
+    ns1:hasPart <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/collections_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Geometry_Output_761c5e6e5779af98.h5m>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_File_da9f7f30933ede5d.json>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_Out_4064598e1e711b65.data>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_Out_dd557443731d3914.data>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Statepoint_4bb0969d4e34a30b.h5>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Tallies_ed684e3b6a4959b5.json>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/export_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/implicit_collection_jobs_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/invocation_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/jobs_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/libraries_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/library_folders_attrs.txt>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.abstract.cwl>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.ga>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.gxwf.yml>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.html> ;
+    ns1:license "" ;
+    ns1:mainEntity <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.gxwf.yml> ;
+    ns1:mentions <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#eed61538-95c5-4e75-bc4e-173527806fd7> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#9ff80a61-ec70-40d5-a24a-bcd6ca59e9f0> a ns1:SoftwareApplication ;
+    ns1:name "Galaxy workflow engine" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#config_json_string-pv> a ns1:PropertyValue ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#config_json_string-param> ;
+    ns1:name "config_json_string" ;
+    ns1:value "{\"materials\": {\"Divertor\": {\"Tungsten\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Inboard_Structure_Blanket\": {\"eurofer\": {\"mixture_amount\": 80, \"enriched\": false}, \"Helium, Natural\": {\"mixture_amount\": 20, \"enriched\": false}}, \"Outboard_Structure_Blanket\": {\"eurofer\": {\"mixture_amount\": 80, \"enriched\": false}, \"Xenon\": {\"mixture_amount\": 20, \"enriched\": false}}, \"Blanket_inboard\": {\"Lithium\": {\"mixture_amount\": 80, \"enriched\": true, \"enrichment_amount\": 20, \"enrichment_target\": \"Li6\"}, \"Water, Vapor\": {\"mixture_amount\": 10, \"enriched\": false}, \"eurofer\": {\"mixture_amount\": 10, \"enriched\": false}}, \"Blanket_outboard\": {\"Lithium\": {\"mixture_amount\": 80, \"enriched\": true, \"enrichment_amount\": 20, \"enrichment_target\": \"Li6\"}, \"Water, Vapor\": {\"mixture_amount\": 10, \"enriched\": false}, \"eurofer\": {\"mixture_amount\": 10, \"enriched\": false}}, \"Manifold_inboard\": {\"eurofer\": {\"mixture_amount\": 80, \"enriched\": false}, \"Nitrogen\": {\"mixture_amount\": 20, \"enriched\": false}}, \"Manifold_outboard\": {\"eurofer\": {\"mixture_amount\": 80, \"enriched\": false}, \"Nitrogen\": {\"mixture_amount\": 20, \"enriched\": false}}, \"Firstwall_inboard\": {\"Tungsten\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Firstwall_outboard\": {\"Tungsten\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Multiplier_inboard\": {\"Be12Ti\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Multiplier_outboard\": {\"Be12Ti\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Reflector_inboard\": {\"Beryllium\": {\"mixture_amount\": 100, \"enriched\": false}}, \"Reflector_outboard\": {\"Beryllium\": {\"mixture_amount\": 100, \"enriched\": false}}}, \"geometry\": {\"firstwall_thickness\": 1.8, \"blanket_outboard_thickness\": 90.0, \"blanket_inboard_thickness\": 60.0, \"manifold_thickness\": 15.0, \"plasma_offset\": 15.0, \"blanket_structure_thickness\": 5.0, \"distance_between_segments\": 10.0, \"multiplier_thickness\": 5.0, \"reflector_thickness\": 5.0, \"amount_of_segments_poloidal\": 6, \"amount_of_segments_toroidal_outboard\": 36, \"amount_of_segments_toroidal_inboard\": 36, \"minor_radius\": 290.0, \"major_radius\": 900.0, \"triangularity\": 0.5, \"elongation\": 1.84, \"angle_start\": 0.0, \"angle_end\": 90.0, \"outer_sphere\": 10000.0}, \"source\": {\"type\": \"tokamak source\"}, \"settings\": {\"temperature\": 600.0, \"run_mode\": \"fixed source\", \"batches\": 5, \"particles\": 1000, \"num_tracks\": 0, \"blanket_type\": \"User\"}, \"tally\": {\"scatter_tally_materials\": [\"Firstwall_inboard\", \"Firstwall_outboard\", \"Inboard_Structure_Blanket\", \"Outboard_Structure_Blanket\", \"Reflector_inboard\", \"Reflector_outboard\"], \"absorbtion_tally_materials\": [\"Firstwall_inboard\", \"Firstwall_outboard\", \"Inboard_Structure_Blanket\", \"Outboard_Structure_Blanket\", \"Reflector_inboard\", \"Reflector_outboard\"], \"multiplication_tally_materials\": [\"Multiplier_inboard\", \"Multiplier_outboard\"], \"tbr_tally_materials\": [\"Blanket_inboard\", \"Blanket_outboard\"]}}" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#eed61538-95c5-4e75-bc4e-173527806fd7> a ns1:CreateAction ;
+    ns1:endTime "2024-05-22T11:34:04.159701" ;
+    ns1:instrument <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.gxwf.yml> ;
+    ns1:name "parametric_json_inout" ;
+    ns1:object <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#config_json_string-pv>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#uid-pv> ;
+    ns1:startTime "2024-05-22T11:34:04.159694" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#uid-pv> a ns1:PropertyValue ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#uid-param> ;
+    ns1:name "uid" ;
+    ns1:value "1410b2e1be964886a34da1c980d5db42" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/collections_attrs.txt> a ns1:MediaObject ;
+    ns1:description "collections properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Geometry_Output_761c5e6e5779af98.h5m> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:52:31.681905" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#cc29babd-256e-4155-a054-3daf772793cb> ;
+    ns1:name "Geometry_Output" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Geometry_Output_761c5e6e5779af98.h5m" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_File_da9f7f30933ede5d.json> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:41:28.390959" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f33be02b-e3fe-4803-b523-c238c7c08b1a> ;
+    ns1:name "JSON_File" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_File_da9f7f30933ede5d.json" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_Out_4064598e1e711b65.data> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:41:28.559964" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f271d82a-a8f2-4ed2-abfc-040185ed945d> ;
+    ns1:name "JSON_Out" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_Out_4064598e1e711b65.data" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/JSON_Out_dd557443731d3914.data> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:54:21.840308" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#e5caa2c0-6fab-4b55-a095-4e001610f4e9> ;
+    ns1:name "JSON_Out" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_Out_dd557443731d3914.data" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Statepoint_4bb0969d4e34a30b.h5> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:54:08.593292" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#5b1412ad-68c3-4cb8-b266-c5fe43f8cb7f> ;
+    ns1:name "Statepoint" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Statepoint_4bb0969d4e34a30b.h5" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets/Tallies_ed684e3b6a4959b5.json> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-15 13:54:16.337709" ;
+    ns1:exampleOfWork <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#28641777-31c1-4c30-a527-bd78e5b4aa5a> ;
+    ns1:name "Tallies" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Tallies_ed684e3b6a4959b5.json" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/datasets_attrs.txt> a ns1:MediaObject ;
+    ns1:description "datasets properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/export_attrs.txt> a ns1:MediaObject ;
+    ns1:description "export properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/implicit_collection_jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "implicit collection jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/invocation_attrs.txt> a ns1:MediaObject ;
+    ns1:description "invocation properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/libraries_attrs.txt> a ns1:MediaObject ;
+    ns1:description "libraries properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/library_folders_attrs.txt> a ns1:MediaObject ;
+    ns1:description "library folders properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.ga> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/e2aa9ef2c2f0123e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.html> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/e2aa9ef2c2f0123e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/> a ns1:Dataset ;
+    dcterms:conformsTo <https://w3id.org/ro/wfrun/process/0.1>,
+        <https://w3id.org/ro/wfrun/workflow/0.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:datePublished "2024-09-17T13:26:26+00:00" ;
+    ns1:hasPart <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/collections_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/Galaxy1-[30_5.json].json_00aed645df95d19a.json>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/Geometry_Output_83224870c896dac0.h5m>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/TBR_bab289e6156c9604.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/export_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/implicit_collection_jobs_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/invocation_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/jobs_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/libraries_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/library_folders_attrs.txt>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.abstract.cwl>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.ga>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.gxwf.yml>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.html> ;
+    ns1:license "" ;
+    ns1:mainEntity <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.gxwf.yml> ;
+    ns1:mentions <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#75126eb6-8d6c-42f3-beff-c30ef136f060> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#75126eb6-8d6c-42f3-beff-c30ef136f060> a ns1:CreateAction ;
+    ns1:endTime "2024-04-02T12:29:13.492658" ;
+    ns1:instrument <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.gxwf.yml> ;
+    ns1:name "Demo Neutronics" ;
+    ns1:object <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/Galaxy1-[30_5.json].json_00aed645df95d19a.json> ;
+    ns1:startTime "2024-04-02T12:29:13.492652" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#ee2378c3-194a-4b43-bea0-022da0a43256> a ns1:SoftwareApplication ;
+    ns1:name "Galaxy workflow engine" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/collections_attrs.txt> a ns1:MediaObject ;
+    ns1:description "collections properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/Geometry_Output_83224870c896dac0.h5m> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-20 13:30:49.029588" ;
+    ns1:exampleOfWork <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#0a4ca63a-299f-4f55-b3ce-28875cdd40c2> ;
+    ns1:name "Geometry_Output" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Geometry_Output_83224870c896dac0.h5m" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/TBR_bab289e6156c9604.txt> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-20 13:31:28.178287" ;
+    ns1:exampleOfWork <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#8b0ac6e4-3258-487e-8cbf-5426d8ad9e40> ;
+    ns1:name "TBR" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/TBR_bab289e6156c9604.txt" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets_attrs.txt> a ns1:MediaObject ;
+    ns1:description "datasets properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/export_attrs.txt> a ns1:MediaObject ;
+    ns1:description "export properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/implicit_collection_jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "implicit collection jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/invocation_attrs.txt> a ns1:MediaObject ;
+    ns1:description "invocation properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/libraries_attrs.txt> a ns1:MediaObject ;
+    ns1:description "libraries properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/library_folders_attrs.txt> a ns1:MediaObject ;
+    ns1:description "library folders properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.ga> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/808f4c38a5cbb26e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.html> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/808f4c38a5cbb26e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/> a ns1:Dataset ;
+    dcterms:conformsTo <https://w3id.org/ro/wfrun/process/0.1>,
+        <https://w3id.org/ro/wfrun/workflow/0.1>,
+        <https://w3id.org/workflowhub/workflow-ro-crate/1.0> ;
+    ns1:datePublished "2024-06-18T14:39:31+00:00" ;
+    ns1:hasPart <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/collections_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Geometry_Output_65203514cb6f7ac9.h5m>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_File_ac4d969beb5e987f.json>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_Out_deb8c4de3f87d3b9.data>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_Out_f665491dde1ae12a.data>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Statepoint_36b17846d06b154e.h5>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Tallies_bb00f7a3dcbff4e1.json>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/export_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/implicit_collection_jobs_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/invocation_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/jobs_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/libraries_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/library_folders_attrs.txt>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.abstract.cwl>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.ga>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.gxwf.yml>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.html> ;
+    ns1:license "" ;
+    ns1:mainEntity <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.gxwf.yml> ;
+    ns1:mentions <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#f9dfce1d-ebdf-433d-9985-eb92e3c223f6> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#aabde324-f640-4bcf-8023-82a431c079a1> a ns1:SoftwareApplication ;
+    ns1:name "Galaxy workflow engine" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#config_json_string-pv> a ns1:PropertyValue ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#config_json_string-param> ;
+    ns1:name "config_json_string" ;
+    ns1:value [ ] .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#f9dfce1d-ebdf-433d-9985-eb92e3c223f6> a ns1:CreateAction ;
+    ns1:endTime "2024-05-22T11:34:04.159701" ;
+    ns1:instrument <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.gxwf.yml> ;
+    ns1:name "parametric_json_inout" ;
+    ns1:object <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#config_json_string-pv>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#uid-pv> ;
+    ns1:startTime "2024-05-22T11:34:04.159694" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#uid-pv> a ns1:PropertyValue ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#uid-param> ;
+    ns1:name "uid" ;
+    ns1:value "fb5125a91cac4197bbfe94275f61a51a" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/collections_attrs.txt> a ns1:MediaObject ;
+    ns1:description "collections properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Geometry_Output_65203514cb6f7ac9.h5m> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:45:07.220969" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#bff84454-006d-4a2b-84ad-4305107f9e11> ;
+    ns1:name "Geometry_Output" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Geometry_Output_65203514cb6f7ac9.h5m" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_File_ac4d969beb5e987f.json> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:36:38.302849" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#146e5953-5ddc-46f9-a114-79592388e7e4> ;
+    ns1:name "JSON_File" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_File_ac4d969beb5e987f.json" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_Out_deb8c4de3f87d3b9.data> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:47:03.073253" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#ed3fe3d0-d920-4b48-9135-2cb8e699514e> ;
+    ns1:name "JSON_Out" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_Out_deb8c4de3f87d3b9.data" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/JSON_Out_f665491dde1ae12a.data> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:36:38.488791" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#460d4cd3-9bac-4add-b128-3e082e0314bc> ;
+    ns1:name "JSON_Out" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/JSON_Out_f665491dde1ae12a.data" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Statepoint_36b17846d06b154e.h5> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:46:49.250352" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#10649e5a-1d4a-4f9d-bce2-504460a4fcb1> ;
+    ns1:name "Statepoint" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Statepoint_36b17846d06b154e.h5" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets/Tallies_bb00f7a3dcbff4e1.json> a ns1:MediaObject ;
+    ns1:dateCreated "2024-05-24 16:46:57.159885" ;
+    ns1:exampleOfWork <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#418845f4-2742-46da-8317-67f447c3f792> ;
+    ns1:name "Tallies" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Tallies_bb00f7a3dcbff4e1.json" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/datasets_attrs.txt> a ns1:MediaObject ;
+    ns1:description "datasets properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/export_attrs.txt> a ns1:MediaObject ;
+    ns1:description "export properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/implicit_collection_jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "implicit collection jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/invocation_attrs.txt> a ns1:MediaObject ;
+    ns1:description "invocation properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/jobs_attrs.txt> a ns1:MediaObject ;
+    ns1:description "jobs properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/libraries_attrs.txt> a ns1:MediaObject ;
+    ns1:description "libraries properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/library_folders_attrs.txt> a ns1:MediaObject ;
+    ns1:description "library folders properties" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:version "2.0" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.ga> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/e2aa9ef2c2f0123e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.html> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:name "workflows/e2aa9ef2c2f0123e" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#28641777-31c1-4c30-a527-bd78e5b4aa5a> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Tallies" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#5b1412ad-68c3-4cb8-b266-c5fe43f8cb7f> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Statepoint" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#cc29babd-256e-4155-a054-3daf772793cb> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Geometry_Output" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#config_json_string-param> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "Text" ;
+    ns1:description "" ;
+    ns1:name "config_json_string" ;
+    ns1:valueRequired "True" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#e5caa2c0-6fab-4b55-a095-4e001610f4e9> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_Out" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f271d82a-a8f2-4ed2-abfc-040185ed945d> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_Out" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f33be02b-e3fe-4803-b523-c238c7c08b1a> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_File" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#uid-param> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "Text" ;
+    ns1:description "" ;
+    ns1:name "uid" ;
+    ns1:valueRequired "True" .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.abstract.cwl> a ns1:HowTo,
+        ns1:MediaObject,
+        ns1:SoftwareSourceCode ;
+    ns1:name "workflows/e2aa9ef2c2f0123e.abstract" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#cwl> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#0a4ca63a-299f-4f55-b3ce-28875cdd40c2> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Geometry_Output" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#63712a9d-1b5d-4afe-a7b0-58ddff7de59c> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Galaxy1-[30_5.json].json" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#8b0ac6e4-3258-487e-8cbf-5426d8ad9e40> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "TBR" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/datasets/Galaxy1-[30_5.json].json_00aed645df95d19a.json> a ns1:MediaObject ;
+    ns1:dateCreated "2024-08-20 13:30:29.688569" ;
+    ns1:encodingFormat "application/json" ;
+    ns1:exampleOfWork <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#63712a9d-1b5d-4afe-a7b0-58ddff7de59c> ;
+    ns1:name "Galaxy1-[30_5.json].json" ;
+    ns1:url "https://foo.bar/hello-world-path/datasets/Galaxy1-[30_5.json].json_00aed645df95d19a.json" .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.abstract.cwl> a ns1:HowTo,
+        ns1:MediaObject,
+        ns1:SoftwareSourceCode ;
+    ns1:name "workflows/808f4c38a5cbb26e.abstract" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#cwl> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#10649e5a-1d4a-4f9d-bce2-504460a4fcb1> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Statepoint" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#146e5953-5ddc-46f9-a114-79592388e7e4> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_File" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#418845f4-2742-46da-8317-67f447c3f792> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Tallies" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#460d4cd3-9bac-4add-b128-3e082e0314bc> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_Out" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#bff84454-006d-4a2b-84ad-4305107f9e11> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "Geometry_Output" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#config_json_string-param> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "Text" ;
+    ns1:description "" ;
+    ns1:name "config_json_string" ;
+    ns1:valueRequired "True" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#ed3fe3d0-d920-4b48-9135-2cb8e699514e> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "File" ;
+    ns1:description "" ;
+    ns1:name "JSON_Out" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#uid-param> a <https://bioschemas.org/FormalParameter> ;
+    ns1:additionalType "Text" ;
+    ns1:description "" ;
+    ns1:name "uid" ;
+    ns1:valueRequired "True" .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.abstract.cwl> a ns1:HowTo,
+        ns1:MediaObject,
+        ns1:SoftwareSourceCode ;
+    ns1:name "workflows/e2aa9ef2c2f0123e.abstract" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#cwl> .
+
+<arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.gxwf.yml> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:creator <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/user2341> ;
+    ns1:name "parametric_json_inout" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> ;
+    ns1:subjectOf <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/workflows/e2aa9ef2c2f0123e.abstract.cwl> ;
+    ns2:input <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#config_json_string-param>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#uid-param> ;
+    ns2:output <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#28641777-31c1-4c30-a527-bd78e5b4aa5a>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#5b1412ad-68c3-4cb8-b266-c5fe43f8cb7f>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#cc29babd-256e-4155-a054-3daf772793cb>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#e5caa2c0-6fab-4b55-a095-4e001610f4e9>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f271d82a-a8f2-4ed2-abfc-040185ed945d>,
+        <arcp://uuid,52ffbd45-3490-4d62-93bf-0349d40cec0a/#f33be02b-e3fe-4803-b523-c238c7c08b1a> .
+
+<arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.gxwf.yml> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:creator <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/user2341> ;
+    ns1:name "Demo Neutronics" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> ;
+    ns1:subjectOf <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/workflows/808f4c38a5cbb26e.abstract.cwl> ;
+    ns2:input <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#63712a9d-1b5d-4afe-a7b0-58ddff7de59c> ;
+    ns2:output <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#0a4ca63a-299f-4f55-b3ce-28875cdd40c2>,
+        <arcp://uuid,7c071a48-2a0c-4d9b-9046-476833f1c0cb/#8b0ac6e4-3258-487e-8cbf-5426d8ad9e40> .
+
+<arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.gxwf.yml> a ns1:MediaObject,
+        ns1:SoftwareSourceCode,
+        <https://bioschemas.org/ComputationalWorkflow> ;
+    ns1:creator <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/user2341> ;
+    ns1:name "parametric_json_inout" ;
+    ns1:programmingLanguage <https://w3id.org/workflowhub/workflow-ro-crate#galaxy> ;
+    ns1:subjectOf <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/workflows/e2aa9ef2c2f0123e.abstract.cwl> ;
+    ns2:input <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#config_json_string-param>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#uid-param> ;
+    ns2:output <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#10649e5a-1d4a-4f9d-bce2-504460a4fcb1>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#146e5953-5ddc-46f9-a114-79592388e7e4>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#418845f4-2742-46da-8317-67f447c3f792>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#460d4cd3-9bac-4add-b128-3e082e0314bc>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#bff84454-006d-4a2b-84ad-4305107f9e11>,
+        <arcp://uuid,ebdfc54d-0ed6-427b-affd-cca9bd7a20ba/#ed3fe3d0-d920-4b48-9135-2cb8e699514e> .
+
+<https://w3id.org/ro/wfrun/process/0.1> a ns1:CreativeWork ;
+    ns1:name "Process Run Crate" ;
+    ns1:version "0.1" .
+
+<https://w3id.org/ro/wfrun/workflow/0.1> a ns1:CreativeWork ;
+    ns1:name "Workflow Run Crate" ;
+    ns1:version "0.1" .
+
+<https://w3id.org/workflowhub/workflow-ro-crate#cwl> a ns1:ComputerLanguage ;
+    ns1:alternateName "CWL" ;
+    ns1:identifier <https://w3id.org/cwl/> ;
+    ns1:name "Common Workflow Language" ;
+    ns1:url <https://www.commonwl.org/> .
+
+<https://w3id.org/workflowhub/workflow-ro-crate/1.0> a ns1:CreativeWork ;
+    ns1:name "Workflow RO-Crate" ;
+    ns1:version "1.0" .
+
+<https://w3id.org/workflowhub/workflow-ro-crate#galaxy> a ns1:ComputerLanguage ;
+    ns1:identifier <https://galaxyproject.org/> ;
+    ns1:name "Galaxy" ;
+    ns1:url <https://galaxyproject.org/> .
+

@@ -2,9 +2,12 @@ import json
 import jq
 import zipfile
 import requests
+import rdflib
+import os
+import arcp
+import uuid
 
-
-def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, nucleus_crate_url, user):
+def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, user):
     '''
     Unzip the crate, combine provenance to the crate and then upload to triple store.
 
@@ -38,6 +41,7 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, nucleus_crate_url,
         dataset_attrs = json.load(f)
 
     # Form the jq filters
+    nucleus_crate_url = "https://foo.bar/hello-world-path/"
     filter_dataset_attrs = f'.[] | {{"@id": .file_name, "@type": "File", dateCreated: .update_time, url: ("{nucleus_crate_url}" + .file_name), exampleOfWork: {{"@id": ("#" + .dataset_uuid)}}, name: .name}}'
     filter_dataset_attrs_example = '.[] | {"@id": ("#" + .dataset_uuid), "@type": "FormalParameter", "additionalType": "File", "description": "", name: .name}'
 
@@ -89,13 +93,31 @@ def upload_crate_provenance(rocrate_filepath, temp_unzip_dir, nucleus_crate_url,
     with open(f'{crate_path}/ro-crate-metadata-updated.json', 'w') as f:
         json.dump(data, f, indent=4)
 
-    # --------------------------------------------------------------
-    # Upload the updated RO-Crate to the triple store
-    # response = requests.post(
-    #     "http://fastapi/upload/crate",
-    #     files={
-    #         "file": open(f"{temp_unzip_dir}/ro-crate-metadata-updated.json", 'rb')
-    #         },
-    # )
-    # print(response.json())
-    return
+    # Load the updated ro-crate-metadata.json using rdflib
+    g = rdflib.Graph()
+    g.parse(f'{crate_path}/ro-crate-metadata-updated.json',
+            format='json-ld',
+            publicID=f'{arcp.generate.arcp_uuid(uuid=uuid.uuid4())}#'
+            )
+
+    return g
+
+
+if __name__ == '__main__':
+    tmp_dir = '/tmp/temp_unzip_dir'
+
+    graph = rdflib.Graph()
+
+    # for file in path ./crates
+    for crate in os.listdir('./crates/'):
+        crate_path = f'./crates/{crate}'
+        new_graph = upload_crate_provenance(crate_path, tmp_dir, {'username': 'user2341'})
+        graph += new_graph
+
+    # Serialize the graph to a string
+    rdf_string = graph.serialize(format='turtle')
+
+    # Serialise to file
+    graph.serialize(f'./wrroc.ttl', format='turtle')
+    
+
